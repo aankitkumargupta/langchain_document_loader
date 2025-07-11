@@ -1,0 +1,38 @@
+Mentor: Welcome everyone! Today, we’ll be diving into Binary Trees in Python. Can anyone tell me what a binary tree is?
+
+Student: It’s a tree data structure where each node has at most two children?
+
+Mentor: Exactly! Those children are typically referred to as the left and right child. Let’s start with a basic example.
+
+Mentor: In Python, we can define a node using a class. 
+
+Mentor: example, This class defines a single node. To build a tree, we link nodes together.
+
+Mentor: Now, what are some common operations we perform on binary trees?
+
+Student: Searching, inserting, and traversing?
+
+Mentor: Correct. Let’s talk about traversal methods. The three most common are inorder, preorder, and postorder traversal. Here’s how we define them recursively.
+
+Mentor:
+def inorder(root):
+    if root:
+        inorder(root.left)
+        print(root.val)
+        inorder(root.right)
+
+Mentor: This will print the nodes in left-root-right order.
+
+Student: Is inorder traversal the same as DFS?
+
+Mentor: Great question! Inorder is one form of Depth-First Search (DFS), yes. But DFS also includes preorder and postorder.
+
+Mentor: Now, suppose we want to check if a binary tree is balanced. A tree is balanced if the heights of two child subtrees of any node never differ by more than one.
+
+Mentor: Yes, it's an efficient recursive way to solve the problem. That wraps up our session. Before we finish, here’s a quick recap:
+
+- Binary Trees have nodes with up to two children.
+- We use traversals like inorder, preorder, and postorder.
+- A balanced tree has nearly equal heights in its subtrees.
+
+Mentor: Please review today’s notebook and submit the coding task before the next class. Thank you!
