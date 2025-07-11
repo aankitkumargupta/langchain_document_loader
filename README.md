@@ -26,11 +26,14 @@ A bite‑sized collection of Python scripts that show **exactly** how to load—
 │   ├── class_quiz.py
 │   ├── class_summary.py
 │   └── mentor.py
-├── data/                 # sample assets (add your own)
+├── data/                 # sample assets you can play with
 │   ├── story.txt
-│   ├── Pdf_paper.pdf
-│   ├── pdf_folder/
-│   └── CSV_file.csv
+│   ├── classnotes.txt
+│   ├── CSV_file.csv
+│   ├── 2D Array Class summary – Audio.pdf
+│   ├── 2D Array Mock test.pdf
+│   ├── 2D Array Practice Questions Theory‑Coding Po….pdf
+│   └── pdf_folder/        # drop any extra PDFs here
 ├── .env.example          # Hugging Face token goes here
 ├── requirements.txt
 └── README.md             # you are here
